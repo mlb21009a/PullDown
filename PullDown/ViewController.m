@@ -2,7 +2,7 @@
 //  ViewController.m
 //  PullDown
 //
-//  Created by 安部力 on 2014/01/19.
+//  Created by マック太郎 on 2014/01/18.
 //  Copyright (c) 2014年 マック太郎. All rights reserved.
 //
 
@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    PullDownView *view = [[PullDownView alloc]initWithFrame:CGRectMake(0, 0, 100, 20)];
+    
+    view.center = self.view.center;
+    
+    [self.view addSubview:view];
+    view.contens = @[@"あ", @"い", @"う"];
 }
 
 - (void)didReceiveMemoryWarning

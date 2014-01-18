@@ -21,6 +21,7 @@
 		2EB8CC6F188AE46C0088B403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB8CC51188AE46B0088B403 /* UIKit.framework */; };
 		2EB8CC77188AE46C0088B403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8CC75188AE46C0088B403 /* InfoPlist.strings */; };
 		2EB8CC79188AE46C0088B403 /* PullDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8CC78188AE46C0088B403 /* PullDownTests.m */; };
+		2EB8CC87188AE5290088B403 /* PullDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8CC85188AE5290088B403 /* PullDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2EB8CC74188AE46C0088B403 /* PullDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDownTests-Info.plist"; sourceTree = "<group>"; };
 		2EB8CC76188AE46C0088B403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EB8CC78188AE46C0088B403 /* PullDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownTests.m; sourceTree = "<group>"; };
+		2EB8CC85188AE5290088B403 /* PullDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownView.m; sourceTree = "<group>"; };
+		2EB8CC86188AE5290088B403 /* PullDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		2EB8CC53188AE46B0088B403 /* PullDown */ = {
 			isa = PBXGroup;
 			children = (
+				2EB8CC85188AE5290088B403 /* PullDownView.m */,
+				2EB8CC86188AE5290088B403 /* PullDownView.h */,
 				2EB8CC5C188AE46B0088B403 /* AppDelegate.h */,
 				2EB8CC5D188AE46B0088B403 /* AppDelegate.m */,
 				2EB8CC5F188AE46B0088B403 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB8CC64188AE46B0088B403 /* ViewController.m in Sources */,
+				2EB8CC87188AE5290088B403 /* PullDownView.m in Sources */,
 				2EB8CC5E188AE46B0088B403 /* AppDelegate.m in Sources */,
 				2EB8CC5A188AE46B0088B403 /* main.m in Sources */,
 			);
