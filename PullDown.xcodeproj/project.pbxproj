@@ -115,8 +115,8 @@
 		2EB8CC53188AE46B0088B403 /* PullDown */ = {
 			isa = PBXGroup;
 			children = (
-				2EB8CC85188AE5290088B403 /* PullDownView.m */,
 				2EB8CC86188AE5290088B403 /* PullDownView.h */,
+				2EB8CC85188AE5290088B403 /* PullDownView.m */,
 				2EB8CC5C188AE46B0088B403 /* AppDelegate.h */,
 				2EB8CC5D188AE46B0088B403 /* AppDelegate.m */,
 				2EB8CC5F188AE46B0088B403 /* Main.storyboard */,
@@ -466,6 +466,7 @@
 				2EB8CC7E188AE46C0088B403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EB8CC7F188AE46C0088B403 /* Build configuration list for PBXNativeTarget "PullDownTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +475,7 @@
 				2EB8CC81188AE46C0088B403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

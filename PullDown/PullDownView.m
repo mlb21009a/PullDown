@@ -70,6 +70,7 @@
     //枠線の設定
     listView.layer.borderWidth = 0.5;
     listView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    [listView.superview bringSubviewToFront:listView];
     [self.superview addSubview:listView];
     
     //ボタン連打対策
